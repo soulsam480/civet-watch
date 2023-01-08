@@ -12,6 +12,10 @@
   "devDependencies": {
     "@cspotcode/source-map-support": "^0.8.1",
     "@danielx/civet": "^0.5.27",
-    "@esbuild-kit/esm-loader": "^2.5.4"
+    "@esbuild-kit/esm-loader": "^2.5.4",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "fastify": "^4.11.0"
   }
 }
