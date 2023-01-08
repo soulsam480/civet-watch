@@ -1,0 +1,11 @@
+function upperCase(name: string)
+    name.toUpperCase()
+
+
+function logNameWithPipe(name: string)
+    name |> upperCase |> console.log
+
+
+logNameWithPipe 'this will be uppercased'
+
+export { }

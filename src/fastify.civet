@@ -1,0 +1,12 @@
+fastify from 'fastify'
+
+app := fastify()
+
+
+app.get '/', () -> 
+    console.log 'Request via fastify'
+    hello: 'world from civet'
+
+await app.listen { port: 3000 }
+
+export {}

@@ -1,8 +1,2 @@
-fastify from 'fastify'
-
-app := fastify()
-
-app.get '/', () -> 
-    hello: 'world from civet'
-
-await app.listen { port: 3000 }
+import './src/fastify.civet'
+import './src/pipe.civet'
