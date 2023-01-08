@@ -1,0 +1,17 @@
+{
+  "name": "civet-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --loader @esbuild-kit/esm-loader --loader @danielx/civet/esm --watch index.civet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cspotcode/source-map-support": "^0.8.1",
+    "@danielx/civet": "^0.5.27",
+    "@esbuild-kit/esm-loader": "^2.5.4"
+  }
+}
